@@ -1,9 +1,9 @@
-import React from 'react'
+import styles from "./users.module.css"
 
-const users = () => {
+const Users = () => {
   return (
-    <div>users</div>
+    <div className={styles.container}>users</div>
   )
 }
 
-export default users
+export default Users

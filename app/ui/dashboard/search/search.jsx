@@ -1,9 +1,9 @@
 import styles from "./search.module.css"
 
-const search = () => {
+const Search = () => {
   return (
-    <div>search</div>
+    <div className={styles.container}>search</div>
   )
 }
 
-export default search
+export default Search

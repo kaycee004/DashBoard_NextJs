@@ -1,9 +1,9 @@
 import styles from "./pagination.css"
 
-const pagination = () => {
+const Pagination = () => {
   return (
-    <div>pagination</div>
+    <div className={styles.container}>pagination</div>
   )
 }
 
-export default pagination
+export default Pagination

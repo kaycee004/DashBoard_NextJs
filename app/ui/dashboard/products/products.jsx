@@ -1,9 +1,9 @@
 import styles from "./products.module.css"
 
-const products = () => {
+const Products = () => {
   return (
-    <div>products</div>
+    <div className={styles.container}>products</div>
   )
 }
 
-export default products
+export default Products
